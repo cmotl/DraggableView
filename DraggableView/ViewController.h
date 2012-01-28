@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    UIView *dragView;
+    
+}
+
+@property(nonatomic, strong) IBOutlet UIView *dragView;
 
 @end
